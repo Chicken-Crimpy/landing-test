@@ -1,0 +1,173 @@
+body {
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    align-items: center;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+a {
+    color: #E5E7EB;
+}
+
+.one {
+    display: flex;
+    background-color: #1F2937;
+    padding: 30px 100px 40px;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.one img {
+    width: 500px;
+    height: auto;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+}
+.intro .hero {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.intro .subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.intro button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 5px 30px;
+    color: #E5E7EB;
+    font-weight: 700;
+    border: none;
+    margin-top: 5px;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 100px 100px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 30px 0px;
+}
+.two .cardbar {
+    display: flex;
+    gap: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 200px;
+    text-align: center;
+    color: #1F2937;
+}
+
+.card img {
+    width: 200px;
+    height: auto;
+    border: solid;
+    border-color: #3882F6;
+    border-radius: 15px;
+}
+
+.three {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px 200px;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.author {
+    font-style: normal;
+    align-self: flex-end;
+}
+
+.four {
+    display: flex;
+    padding: 100px 200px;
+    justify-content: center;
+}
+
+.four .call {
+    display: flex;
+    background-color: #3882F6;
+    padding: 25px 50px;
+    border-radius: 15px;
+    gap: 100px;
+}
+
+.four button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 5px 30px;
+    color: #E5E7EB;
+    font-weight: 700;
+    border: solid;
+    border-color: #E5E7EB;
+    margin-top: 5px;
+}
+
+.right-text {
+    display: flex;
+    flex-direction: column;
+}
+.strong {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.sub {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 30px 100px;
+}
